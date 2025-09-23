@@ -2,9 +2,9 @@ package StringPrograms;
 
 public class reverse_words {
     public static void main(String[]args){
-        String str="i am ironman";
+        String str="steve rogers";
         String[]words=str.split(" ");
-        String rev="";
+       // String rev="";
        // System.out.println(words.length);
         for(int i=0;i< words.length;i++){
             String word=words[i];
@@ -15,7 +15,7 @@ public class reverse_words {
 
 
             }
-            System.out.println(reverse);
+            System.out.print(reverse +" ");
             }
 
 

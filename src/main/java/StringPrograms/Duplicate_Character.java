@@ -11,6 +11,8 @@ public class Duplicate_Character {
         String str=scanner.next();
         char[]word=str.toCharArray();
         Arrays.sort(word);
+        System.out.println("soted arry:" +Arrays.toString(word));
+       
 
         for(int i=0;i<word.length;i++){
             if(word[i]==word[i+1]){
