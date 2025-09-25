@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class nonrepeatingcharacter {
 	public static void main(String[] args) {
-		String input = "swiss";
+		String input = "aathira";
 
 		Map<Character, Integer> frequency = new LinkedHashMap<>();
 			for (char ch : input.toCharArray()) {
