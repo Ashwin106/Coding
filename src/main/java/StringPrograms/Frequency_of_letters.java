@@ -16,6 +16,7 @@ public class Frequency_of_letters {
         for(int i=0;i<word.length();i++){
             if(ch==word.charAt(i)){
                 frequency++;
+                //System.out.println("Frequency of " +ch +"= " +frequency);
             }
         }
         System.out.println("Frequency of " +ch +"= " +frequency);
