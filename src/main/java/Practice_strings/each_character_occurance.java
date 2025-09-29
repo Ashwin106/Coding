@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class each_character_occurance {
     public static void main(String[]args){
-        String input="ashwin";
+        String input="ananthakrishnan";
         Map<Character,Integer> count=new HashMap<>();
         for(char c:input.toCharArray()){
             if(Character.isLetter(c)){
